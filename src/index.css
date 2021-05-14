@@ -20,8 +20,8 @@ body {
 
 .board {
   display: grid;
-  grid-template-columns: repeat(10, 40px);
-  grid-template-rows: repeat(10, 40px);
+  grid-template-columns: repeat(5, 40px);
+  grid-template-rows: repeat(5, 40px);
 }
 
 .game {
