@@ -36,7 +36,7 @@ class Game extends React.Component {
       if (success) {
         this.setState({
           squares: response['BoardRes'],
-          xIsNext: !this.state.xIsNext,
+          xIsNext: !this.state.xIsNext, //Si borro esto solo escribe X
           status: response['Status'],
           waiting: false
         });
