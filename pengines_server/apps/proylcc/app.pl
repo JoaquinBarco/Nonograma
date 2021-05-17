@@ -1,6 +1,6 @@
-:- module(app_proylcc, 
+:- module(app_init, 
 	[]).
 :- use_module(library(pengines)).
 
-:- pengine_application(proylcc).
-:- use_module(proylcc:proylcc).
+:- pengine_application(init).
+:- use_module(init:init).

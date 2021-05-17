@@ -11,7 +11,7 @@ class PengineClient {
         this.handleSuccess = this.handleSuccess.bind(this);
         this.pengine = new window.Pengine({
             server: "http://localhost:3030/pengine",
-            application: "proylcc",
+            application: "init",
             oncreate: handleCreate,
             onsuccess: this.handleSuccess,
             onfailure: this.handleFailure,
